@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="notthegit.sbc.kmitl.sbc.Otheracc">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/bbl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:src="@drawable/bbl" />
+
+    <ImageView
+        android:id="@+id/scb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/scb"/>
+    <ImageView
+        android:id="@+id/kk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/kk" />
+    <ImageView
+        android:id="@+id/bay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bay" />
+
+    <ImageView
+        android:id="@+id/ktb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ktb" />
+
+    <ImageView
+        android:id="@+id/gbs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gbs" />
+</FrameLayout>
