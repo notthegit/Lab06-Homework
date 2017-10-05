@@ -6,7 +6,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
             viewFragment(new Ouracc());
         } else if (view == findViewById(R.id.otheracc)) {
             viewFragment(new Otheracc());
-        } else if (view == findViewById(R.id.payfrag)){
-            viewFragment(new Payfrag());
+        //} else if (view == findViewById(R.id.payfrag)){
+        //    viewFragment(new Payfrag());
         }
     }
 }

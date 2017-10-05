@@ -7,9 +7,10 @@
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/noacc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="คุณไม่มีบัญชีเงินฝากในหารทำรายการ"
+        android:textSize="20dp"
         android:layout_gravity="center"/>
 </FrameLayout>
